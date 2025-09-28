@@ -1,0 +1,11 @@
+{
+  "name": "live-polling-system",
+  "version": "1.0.0",
+  "description": "Live Polling System - Real-time interactive polling for teachers and students",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["polling", "real-time", "education", "react", "socket.io"],
+  "author": "Live Polling System",
+  "license": "MIT"
+}
