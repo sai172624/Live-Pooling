@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+const baseUrl = process.env.REACT_APP_BASE_URL
 const PollHistory = ({ isOpen, onClose }) => {
   const [history, setHistory] = useState([]);
   const [loading, setLoading] = useState(false);
